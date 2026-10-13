@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zion Marlon F. Espiritu | Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="top-bar">
+      <p>Open for internships & collaborations</p>
+    </div>
+
+    <header class="header">
+      <div class="container nav-wrapper">
+        <a href="#home" class="brand">Zion Marlon F. Espiritu</a>
+
+        <div class="nav-right">
+          <nav>
+            <ul class="nav-links" id="navLinks">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+
+          <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero waves" id="home">
+        <div class="container hero-wrapper">
+          <div class="hero-card sticker">
+            <p class="hero-small">Hi, I'm</p>
+            <h1>Zion Marlon F. Espiritu</h1>
+            <p class="hero-intro">
+              IT student and aspiring web developer. I build simple, useful
+              systems that solve everyday problems.
+            </p>
+            <a href="#projects" class="button">View my projects</a>
+          </div>
+
+          <div class="hero-panel swirl">
+            <img
+              src="./Assets/pfp.jpeg"
+              alt="Profile photo of Zion Marlon F. Espiritu"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <div class="container">
+          <h2 class="section-title">About Me</h2>
+          <div class="about-wrapper">
+            <p class="about-bio">
+              I'm <strong>Zion Marlon F. Espiritu</strong>, a
+              <strong>3rd year</strong> student taking <strong>BSIT</strong> at
+              <strong>Bulacan State University</strong>. I enjoy turning ideas
+              into working websites and systems. Most of my projects are CRUD
+              applications, and I'm currently learning more about front-end
+              design and building full web apps.
+            </p>
+
+            <ul class="skills">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Flutter</li>
+              <li>PHP</li>
+              <li>MySQL</li>
+              <li>Git & GitHub</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects" id="projects">
+        <div class="container">
+          <h2 class="section-title">My Projects</h2>
+
+          <div class="project-grid">
+            <article class="project-card">
+              <div class="card-top swirl">
+                <span class="card-number">01</span>
+              </div>
+              <div class="card-body">
+                <h3>Subscription Tracker</h3>
+                <p>
+                  A web app for tracking recurring subscriptions such as
+                  Netflix, Spotify, and Claude. It shows when each one is next
+                  due, which are overdue, and what they cost you per month and
+                  per year. I created this website to learn more about React,
+                  Vite and Firebase and to practice building a full web app with
+                  authentication and database features.
+                </p>
+                <p class="tech">
+                  React • Vite • Firebase Authentication • Cloud Firestore
+                </p>
+                <a
+                  href="https://subscription-tracker-6f6ec.web.app/"
+                  target="_blank"
+                  class="card-link"
+                  >View project</a
+                >
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="card-top swirl">
+                <span class="card-number">02</span>
+              </div>
+              <div class="card-body">
+                <h3>Cinema Hall Ticket Management System</h3>
+                <p>
+                  A school project that is a Java Swing desktop system for
+                  running a movie theater: managing movies and theaters,
+                  reserving seats in real time, generating receipts, and
+                  tracking ticket sales. It has separate Receptionist and
+                  Administrator access, and uses Linked Lists to store and
+                  manage records.
+                </p>
+                <p class="tech">Java • Swing • MySQL</p>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="card-top swirl">
+                <span class="card-number">03</span>
+              </div>
+              <div class="card-body">
+                <h3>Library System</h3>
+                <p>
+                  A school project for managing books, borrowers, and borrowing
+                  records with add, view, update, and delete features.
+                </p>
+                <p class="tech">HTML • CSS • JavaScript • PHP</p>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="card-top swirl">
+                <span class="card-number">04</span>
+              </div>
+              <div class="card-body">
+                <h3>Other School Projects</h3>
+                <p>
+                  Did a lot of small school projects in different programming
+                  languages and frameworks. Did CRUD application, JDBC
+                  application, and other small projects in Java, HTML, PHP, and
+                  Flutter.
+                </p>
+                <p class="tech">Java • HTML • PHP • Flutter</p>
+              </div>
+            </article>
+          </div>
+
+          <p class="projects-note waves">
+            I'm always working on new projects and learning new skills. Check
+            back soon for updates!
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer waves" id="contact">
+      <div class="container">
+        <div class="footer-card sticker">
+          <div class="footer-block">
+            <h2 class="footer-title">Let's connect</h2>
+            <p class="footer-text">
+              Feel free to reach out for projects, questions, or just to say hi.
+            </p>
+            <a href="mailto:zionmarlon222@gmail.com" class="footer-email"
+              >zionmarlon222@gmail.com</a
+            >
+          </div>
+
+          <ul class="socials">
+            <li>
+              <a href="https://github.com/Siyonnn" target="_blank">GitHub</a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/zion.marlon.3" target="_blank"
+                >Facebook</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/siyon._.p/?hl=en"
+                target="_blank"
+                >Instagram</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <div class="copyright-bar">
+      <p>© 2026 Zion Marlon F. Espiritu. All rights reserved.</p>
+    </div>
+
+    <div class="theme-wipe waves" id="themeWipe"></div>
+
+    <button class="theme-toggle" id="themeToggle" aria-label="Switch between dark and light mode">
+      <svg class="icon-moon" viewBox="0 0 24 24" width="26" height="26" aria-hidden="true">
+        <path d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5z" fill="currentColor"/>
+      </svg>
+      <svg class="icon-sun" viewBox="0 0 24 24" width="26" height="26" aria-hidden="true">
+        <circle cx="12" cy="12" r="5" fill="currentColor"/>
+        <g stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+          <line x1="12" y1="1.5" x2="12" y2="4.5"/>
+          <line x1="12" y1="19.5" x2="12" y2="22.5"/>
+          <line x1="1.5" y1="12" x2="4.5" y2="12"/>
+          <line x1="19.5" y1="12" x2="22.5" y2="12"/>
+          <line x1="4.6" y1="4.6" x2="6.7" y2="6.7"/>
+          <line x1="17.3" y1="17.3" x2="19.4" y2="19.4"/>
+          <line x1="4.6" y1="19.4" x2="6.7" y2="17.3"/>
+          <line x1="17.3" y1="6.7" x2="19.4" y2="4.6"/>
+        </g>
+      </svg>
+    </button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
