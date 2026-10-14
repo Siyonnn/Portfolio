@@ -394,14 +394,20 @@ body.dark .theme-toggle .icon-moon {
 
 .card-body .tech {
   margin-top: auto;
+  margin-bottom: 0;
   font-size: 13px;
   font-weight: 500;
   text-transform: uppercase;
   color: var(--red);
 }
 
+.card-link + .tech {
+  margin-top: 14px;
+}
+
 .card-link {
   align-self: flex-start;
+  margin-top: auto;
   font-weight: 700;
   text-transform: uppercase;
   font-size: 14px;
